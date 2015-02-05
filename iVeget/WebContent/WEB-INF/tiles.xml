@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+	<!-- Frontend layout -->
+	<definition name="frontendLayout" template="/WEB-INF/jsp/frontend/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="" />
+	</definition>
+
+	<definition name="frontendLogin" extends="frontendLayout">
+		<put-attribute name="title" value="Login Title"></put-attribute>
+		<put-attribute name="header" value="Login Header"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/frontend/login.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="frontendHomepage" extends="frontendLayout">
+		<put-attribute name="title" value="Homepage Title"></put-attribute>
+		<put-attribute name="header" value="Homepage Header"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/frontend/homepage.jsp"></put-attribute>
+	</definition>
+	<!-- End Frontend layout -->
+
+	<!-- Backend layout -->
+	<definition name="backendLayout" template="/WEB-INF/jsp/backend/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="" />
+	</definition>
+
+	<definition name="backendLogin" extends="backendLayout">
+		<put-attribute name="title" value="Login Title"></put-attribute>
+		<put-attribute name="header" value="Login Header"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/backend/login.jsp"></put-attribute>
+	</definition>
+	<!-- End Backend layout -->
+
+</tiles-definitions>
