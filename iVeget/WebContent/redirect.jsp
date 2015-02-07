@@ -2,4 +2,8 @@
 	pageEncoding="UTF-8"%>
 <%
 response.sendRedirect("LoginController/login.fpt");
+
+
+
+
 %>
