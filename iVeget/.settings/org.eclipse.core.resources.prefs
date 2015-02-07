@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
 encoding//src/edu/fpt/group4/common/ConnectionFactory.java=UTF-8
+encoding//src/edu/fpt/group4/common/Validator.java=UTF-8
 encoding//src/edu/fpt/group4/controller/LoginController.java=UTF-8
 encoding//src/edu/fpt/group4/entity/UserEntity.java=UTF-8
